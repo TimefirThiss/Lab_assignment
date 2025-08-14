@@ -1,0 +1,62 @@
+@media screen and (max-width: 600px) {
+    th {
+
+        font-size-adjust: 0.5;
+    }   
+}
+form {
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid red;
+}
+
+body {
+      background-image:
+      linear-gradient(to bottom, rgba(0, 0, 0, 0.20), rgba( 0, 0, 0, 0.80)), url(nimaimi.jpg);
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+      background-color: white;
+      /*gimme that mid-2000s feel. I wanna pretend I actually owned a myspace account with how this looks*/
+      border-left:50px solid saddlebrown;
+      border-right: 50px solid saddlebrown;
+      margin: 0px;
+}
+table {
+    height: 80%; 
+    margin-left:auto; 
+    margin-right:auto; 
+    width: 620px;
+}
+td {
+    text-align: justify;
+    color: aliceblue;
+}
+/*well, guess I learned that css is universal. or maybe I'm missing something
+Either way this border was only meant to go around the header with the list on it.
+still looks neat*/
+th {text-align: left;
+    color: goldenrod;
+    border: 1px solid yellow;
+    margin: 10px;
+    padding: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/*#box {}
+is how css can target id=box
+*/
+a:link {
+    color: yellow;
+}
+a:visited {
+    color: red;
+}
+a:hover{
+    color: beige;
+}
+ul {
+    list-style-type: none;
+}
+p {
+    font-family: fantasy;
+}
